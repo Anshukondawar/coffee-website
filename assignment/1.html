@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        border: 2px solid black;
+        background-color: aqua;
+        align-content: center;
+        justify-content: center;
+    }
+    .item{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid black;
+        margin: 44px;
+        height: 206px;
+        width: 307px;
+        padding: 2px
+    }
+    .imgbox{
+        height: 400px;
+        width: 4oopx;
+    }
+    .inputbox{
+        color: rgb(8, 7, 6);
+        text-align: center;
+        display: flex;
+        
+    }
+    #btn{
+     background-color: grey;
+     color: black;
+     text-align: center;
+     
+    }
+    #btn:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+    .class{
+      margin: 4px;
+      padding: 2px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="image.png">
+        </div>
+       
+        <div class="item">
+            
+            <form class="inputbox">
+                <fieldset>
+                <legend>personel information</legend>
+            <label>Name:</label>
+            <input type="text" class="class" placeholder="enter your name " required>
+            <label>Email:</label>
+            <input type="email" class="class" placeholder="enter your email">
+            <label>Phone no:</label>
+            <input type="text" class="class" placeholder="enter your phone no">
+            <label>password:</label>
+            <input type="password" placeholder="enter your password">
+            <button id="btn" class="class" >Submit</button>
+                </fieldset>
+        </form>
+        </div>
+        
+    </div>
+</body>
+</html>
